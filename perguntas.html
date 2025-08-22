@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Perguntas Frequentes</title>
+
+  <link rel="stylesheet" href="css/style.css" />
+
+</head>
+
+<body>
+  <header>
+    <img src="/Imagens/Rectangle 13 (1).png" class="imgcabeçalho" alt="">
+    <h1 class="text">Perguntas Frequentes</h1>
+  </header>
+  <main class="container3">
+    <div class="accordion">
+      <div class="item">
+        <div class="title">Seção 1</div>
+        <div class="content">Conteúdo da primeira seção.</div>
+      </div>
+      <div class="item">
+        <div class="title">Seção 2</div>
+        <div class="content">Conteúdo da segunda seção.</div>
+      </div>
+      <div class="item">
+        <div class="title">Seção 3</div>
+        <div class="content">Conteúdo da terceira seção.</div>
+      </div>
+      <div class="item">
+        <div class="title">Seção 4</div>
+        <div class="content">Conteúdo da quarta seção.</div>
+      </div>
+      <div class="item">
+        <div class="title">Seção 5</div>
+        <div class="content">Conteúdo da quinta seção.</div>
+      </div>
+    </div>
+
+    <script>
+      const items = document.querySelectorAll(".item");
+
+      items.forEach(item => {
+        const title = item.querySelector(".title");
+        const content = item.querySelector(".content");
+
+        title.addEventListener("click", () => {
+          const isOpen = item.classList.contains("open");
+          items.forEach(i => {
+            i.classList.remove("open");
+            i.querySelector(".content").style.maxHeight = null;
+            i.querySelector(".content").style.padding = "0 50px";
+          });
+          if (!isOpen) {
+            item.classList.add("open");
+            content.style.maxHeight = content.scrollHeight + "px";
+            content.style.padding = "50px";
+          }
+        });
+      });
+    </script>
+  </main>
+
+  <footer>
+    <navbar class="rodapé">
+      <span class="text"><a href="index.html">Home</a></span>
+      <span class="text"><a href="extasia.html">Extasia Oculta</a></span>
+      <span class="text"><a href="agenda.html">Agenda</a></span>
+      <span class="text"><a href="portfolio.html">Portfólio</a></span>
+    </navbar>
+
+    <div class="container2">
+      <div class="box3 text">
+        <span>sspiralhouse@gmail.com</span>
+        <span>Whatsapp: 12345678</span>
+      </div>
+
+      <div class="box4 text">
+        <span>extasiaoculta@gmail.com</span>
+        <span>Whatsapp: 12345678</span>
+      </div>
+
+    </div>
+  </footer>
+</body>
+
+</html>
