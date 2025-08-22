@@ -5,7 +5,7 @@
 }
 
 .container {
-  background-image: url(/imagens/background.jpg);
+  background-image: url(../imagens/background.jpg);
   height: 100%;
   width: auto;
   display: flex;
@@ -42,7 +42,7 @@ a:active {
   height: 170px;
   width: 315px;
   border-radius: 20px;
-  background-image: linear-gradient(transparent 0%, #4b872667 0px), url(/imagens/espiral.jpg);
+  background-image: linear-gradient(transparent 0%, #4b872667 0px), url(../imagens/espiral.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -68,7 +68,7 @@ a:active {
   height: 170px;
   width: 315px;
   border-radius: 20px;
-  background-image: linear-gradient(transparent 0%, #44067767 0px), url(/imagens/espiral.jpg);
+  background-image: linear-gradient(transparent 0%, #44067767 0px), url(../imagens/espiral.jpg);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -275,7 +275,7 @@ footer {
 }
 
 .background-eventos {
-  background-image: url(/imagens/background-eventos.png);
+  background-image: url(../imagens/background-eventos.png);
   height: 100%;
   width: auto;
   display: flex;
@@ -339,7 +339,7 @@ footer {
 }
 
 .background-portfolio {
-  background-image: url(/imagens/Rectangle58.png);
+  background-image: url(../imagens/Rectangle58.png);
   height: auto;
   width: 100%;
   display: flex;
@@ -361,7 +361,7 @@ footer {
   height: 300px;
   width: 200px;
   border-radius: 20px;
-  background-image: linear-gradient(transparent 0%, #44067730 0px), url(/imagens/Rectangle54.png);
+  background-image: linear-gradient(transparent 0%, #44067730 0px), url(../imagens/Rectangle54.png);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -413,7 +413,7 @@ footer {
 }
 
 .background-portfolio2 {
-  background-image: url(/imagens/background-eventos.png);
+  background-image: url(../imagens/background-eventos.png);
   height: auto;
   width: 100%;
   display: flex;
