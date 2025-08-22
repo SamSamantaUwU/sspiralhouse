@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  background-repeat: no-repeat;
 }
 
 .box {
@@ -281,6 +282,7 @@ footer {
   display: flex;
   justify-content: space-between;
   gap: 50px;
+  background-repeat: no-repeat;
 }
 
 .imgroupas {
@@ -348,6 +350,7 @@ footer {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  background-repeat: no-repeat;
 }
 
 .artistas {
